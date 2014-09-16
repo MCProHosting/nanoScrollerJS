@@ -355,7 +355,7 @@
 
       @previousPosition = 0
 
-      if @options.iOSNativeScrolling && @el.style.WebkitOverflowScrolling?
+      if @options.iOSNativeScrolling && @el.style?.WebkitOverflowScrolling?
         do @nativeScrolling
       else
         do @generate
